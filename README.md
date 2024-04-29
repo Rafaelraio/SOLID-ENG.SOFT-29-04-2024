@@ -75,7 +75,7 @@ class Calculadora:
         return self.operacao.calcular(x, y)
 ```
 
- O código do ex4.py se trata da abstração de um animal, nele ferimos a preferência por composição sobre herança, ao criarmos a classe Cachorro herdando a classe Animal.
+ O código do ex4.py se trata da abstração de um animal e de uma fazenda, nele ferimos a preferência por composição sobre herança, ao criarmos a classe Fazenda herdando a classe Animal.
 
  ```python:
 class Animal:
@@ -89,7 +89,7 @@ class Fazenda(Animal):
 
 ```
 
- O código do solu4.py resolve esse problema, ao usar da composição, com a Classe Cachorro carregando uma instância da classe Animal ao invés de herdá-la.
+ O código do solu4.py resolve esse problema, ao usar da composição, com a Classe Fazenda carregando uma instância da classe Animal ao invés de herdá-la.
 
  ```python:
 class Animal:
