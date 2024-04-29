@@ -2,13 +2,13 @@
 
 O código do ex1.py, tem como o objetivo somar um número e retornar o resultado, entretanto ele fere o princípio de responsabilidade única do SOLID, pois além de calcular o valor também o imprime.
 
-'''python:
+```python:
 class Soma:
     def somar(self, x, y):
         sol = x+y
         print(sol)
         return x + y
-'''
+```
 
 
 O código do solu1.py resolve os problemas encontrados no ex1.py, pois agora a classe apenas realiza a soma e retorna seu valor.
