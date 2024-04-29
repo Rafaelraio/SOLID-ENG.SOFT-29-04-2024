@@ -82,9 +82,10 @@ class Animal:
     def mover(self):
         print("O animal está se movendo.")
 
-class Cachorro(Animal):
-    def latir(self):
-        print("O cachorro está latindo.")
+class Fazenda(Animal):
+    def abrir(self):
+        print("O fazenda está abrindo.")
+
 
 ```
 
@@ -95,10 +96,10 @@ class Animal:
     def mover(self):
         print("O animal está se movendo.")
 
-class Cachorro:
+class Fazenda:
     def __init__(self):
         self.animal = Animal()
 
-    def latir(self):
-        print("O cachorro está latindo.")
+    def abrir(self):
+        print("A fazenda está abrindo.")
 ```
